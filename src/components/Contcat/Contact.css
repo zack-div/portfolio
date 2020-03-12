@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+
+/* HEADER PART */
+.header {
+  width: 80%;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SECTION LOGO */
+.header .brandLogo {
+  flex: 1;
+}
+.header .brandLogo h1 {
+  font-size: 1.2em;
+}
+
+/* SECTION NAVTION HEADER */
+.navHeader {
+  flex: 2;
+}
+
+.navHeader ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  justify-content: space-around;
+}
+
+.navHeader ul li a {
+  color: black;
+  font-weight: 700;
+  font-size: 1em;
+}
+.navHeader ul li a:hover {
+  color: rgb(82, 82, 82);
+}
+
+/* CONTACT */
+
+.contact-page {
+  width: 80%;
+  margin: auto;
+}
+.title-contact {
+  height: 20vh;
+  line-height: 20vh;
+}
+.title-contact h1 {
+  font-size: 1.2em;
+}
+
+.contact #name,
+#email,
+#subject,
+#msg {
+  display: block;
+  border: 1px solid #00000019;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 35%;
+}
+#submit {
+  width: 35%;
+  height: 40px;
+  border: none;
+  background-color: rgb(16, 194, 96);
+  color: white;
+  font-size: 1em;
+}

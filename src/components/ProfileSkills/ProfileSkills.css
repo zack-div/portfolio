@@ -1,0 +1,93 @@
+/* PROFILE-SKILLS */
+.profile-skills {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.profile {
+  flex: 1;
+}
+.profile-title,
+.skills-title {
+  height: 20vh;
+  line-height: 20vh;
+}
+.profile-title h1,
+.skills-title h1 {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+.profile-title h1 span,
+.skills-title h1 span {
+  font-weight: bold;
+}
+.profile-info {
+}
+.profile-info h3 {
+  width: 100px;
+}
+.profile-info span {
+  text-align: center;
+  margin-left: 10px;
+}
+.profile-info h3,
+span {
+  display: inline-block;
+}
+
+/* SKILLS */
+.skills {
+  flex: 1;
+  margin-bottom: 10px;
+}
+.skills p {
+  color: rgb(160, 160, 160);
+}
+.skill {
+  width: 90%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.skill h3 {
+  font-size: 1em;
+  color: rgb(45, 45, 45);
+}
+.hr-bootstrap {
+  width: 90%;
+  border: 0.1em solid rgb(255, 87, 25);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.hr-css3 {
+  width: 80%;
+  border: 0.1em solid rgb(255, 87, 25);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.hr-photoshop {
+  width: 70%;
+  border: 0.1em solid rgb(255, 87, 25);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+@media screen and (max-width: 750px) {
+  /* PROFILE & SKILLS */
+  .profile-skills {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

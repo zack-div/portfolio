@@ -1,0 +1,10 @@
+.footer {
+  position: relative;
+  width: 80%;
+  height: 10vh;
+  line-height: 10vh;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}

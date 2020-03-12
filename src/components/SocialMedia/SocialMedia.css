@@ -1,0 +1,47 @@
+/* SOCILA MEDIA */
+.socila-media {
+  width: 80%;
+  height: 20vh;
+  display: flex;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.socila-media h1 {
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 2em;
+  color: #fff;
+}
+.socila-media h1 span {
+  font-weight: 100;
+}
+.socila-media .icon {
+  font-size: 1em;
+  color: #fff;
+  margin-top: 10px;
+}
+.fb {
+  height: 20vh;
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .socila-media {
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    background-color: darkgoldenrod;
+  }
+  .fb,
+  .twitter,
+  .pinterest {
+    width: 100%;
+  }
+}

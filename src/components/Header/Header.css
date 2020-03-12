@@ -1,0 +1,67 @@
+/* HEADER PART */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style-type: none;
+}
+
+.header {
+  width: 80%;
+  height: 20vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SECTION LOGO */
+.header .brandLogo {
+  flex: 1;
+}
+.header .brandLogo h1 {
+  font-size: 1.2em;
+}
+
+/* SECTION NAVTION HEADER */
+.navHeader {
+  flex: 2;
+}
+
+.navHeader ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  justify-content: space-around;
+}
+
+.navHeader ul li a {
+  color: black;
+  font-weight: 700;
+  font-size: 1em;
+}
+.navHeader ul li a:hover {
+  color: rgb(82, 82, 82);
+}
+
+@media only screen and (max-width: 600px) {
+  .header .brandLogo h1 {
+    font-size: 1em;
+  }
+  .navHeader ul li a {
+    font-size: 0.9em;
+    margin-right: 8px;
+    font-weight: 500;
+  }
+}
