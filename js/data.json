@@ -1,0 +1,77 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "icon_name": "icon fa fa-chain fa-2x",
+      "title": "Mobile Ux",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    },
+    {
+      "id": 2,
+      "icon_name": "icon fa fa-bolt fa-2x",
+      "title": "Mobile Ux",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    },
+    {
+      "id": 3,
+      "icon_name": "icon fa fa-tachometer fa-2x",
+      "title": "Mobile Ux",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quos omnis voluptas ea ipsam! Voluptas."
+    }
+  ],
+
+  "portfolio": [
+    {
+      "id": 1,
+      "images": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 2,
+      "images": "https://images.pexels.com/photos/2661929/pexels-photo-2661929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 3,
+      "images": "https://images.pexels.com/photos/7055/desk-computer-imac-home.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 4,
+      "images": "https://images.pexels.com/photos/41227/pexels-photo-41227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 5,
+      "images": "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 6,
+      "images": "https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 7,
+      "images": "https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    },
+    {
+      "id": 8,
+      "images": "https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+  ],
+  "social": [
+    {
+      "id": 1,
+      "icon": "icon fab fa-facebook-f",
+      "title": "Follow Me on",
+      "body": "Social Facebook"
+    },
+    {
+      "id": 2,
+      "icon": "icon fab fa-twitter",
+      "title": "Tweet Me on",
+      "body": "Social twitter"
+    },
+    {
+      "id": 3,
+      "icon": "icon fab fa-pinterest-p",
+      "title": "Pin Me on",
+      "body": "Social Pinterest"
+    }
+  ]
+}
